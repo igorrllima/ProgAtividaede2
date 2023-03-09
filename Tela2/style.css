@@ -1,0 +1,25 @@
+.principal {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.temqueAfastar{
+    padding:21px;
+}
+.temqueAfastar2{
+    padding:14px;
+}
+.botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 70px;
+    height: 40px;
+    margin: 0 15px
+}

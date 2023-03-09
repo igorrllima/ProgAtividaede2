@@ -1,0 +1,45 @@
+.container {
+    margin: 5%;
+    width: 90%;
+    height: 400px;
+}
+.inputTitulo{
+    position: relative;
+    left: 30px;
+}
+.secundario {
+    width: auto;
+    height: 20vh;
+}
+.inputBig {
+    margin-top: 2%;
+    margin-left: 15%;
+    width: 80%;
+    height: 85%;
+}
+.inputBig::placeholder {
+    position: absolute;
+    top: 0; 
+    left: 0;
+}
+label{
+    position:fixed;
+    display: flex;
+}
+
+/* Esconde o input */
+input[type='file'] {
+    display: none
+  }
+  
+/* Aparência que terá o seletor de arquivo */
+.arquivo{
+    Color: #3498db;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 6px;
+}
+i{
+    color:rgb(5, 170, 5);
+    padding-right: 3px;
+}
